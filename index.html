@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love You Abhiii</title>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(100%); }
+            to { transform: translateX(0); }
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe6e6;
+            background-image: url('cute memories/images/images/WhatsApp Image 2025-02-11 at 10.56.41_98f06eb3.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            color: #333;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+        header {
+            background-color: #f75e5e;
+            color: white;
+            padding: 20px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: slideIn 1s ease-in-out;
+        }
+        h1 {
+            margin: 0;
+        }
+        .slider {
+            margin-top: 100px;
+            max-width: 90%;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .slides img {
+            max-width: 200px;
+            max-height: 200px;
+            width: auto;
+            height: auto;
+            border-radius: 10px;
+            margin: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .slider-buttons {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+            pointer-events: none; /* Makes container non-interactive */
+        }
+        .slider-buttons button {
+            background-color: rgba(255, 255, 255, 0.7);
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+            font-size: 1.5em;
+            pointer-events: auto; /* Makes buttons interactive */
+        }
+        .messages {
+            margin-top: 20px;
+            padding: 0 20px;
+            animation: fadeIn 3s ease-in-out;
+        }
+        .message {
+            font-size: 1.2em;
+            margin: 10px 0;
+            animation: fadeIn 3s ease-in-out;
+        }
+        footer {
+            background-color: #fc6565;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+            animation: slideIn 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Love You So Much Abhiii</h1>
+    </header>
+    <div class="slider">
+        <div class="slides">
+            <img src="cute memories/images/images/WhatsApp Image 2025-02-11 at 19.37.47_aded0355.jpg" alt="Memory 1">
+            <img src="cute memories/images/images/WhatsApp Image 2025-02-11 at 19.37.47_6c5302e5.jpg" alt="Memory 2">
+            <img src="cute memories/images/images/WhatsApp Image 2025-02-11 at 19.37.46_05454750.jpg" alt="Memory 3">
+            <img src="cute memories/images/images/WhatsApp Image 2025-02-11 at 19.38.31_97b4d267.jpg" alt="Memory 4"> 
+            <img src="cute memories/images/images/WhatsApp Image 2025-02-11 at 20.08.02_7b1f66f7.jpg" alt="Memory 5">
+            <img src="cute memories/images/images/WhatsApp Image 2025-02-11 at 19.37.44_4d363d11.jpg" alt="Memory 6">
+            <img src="cute memories/images/images/WhatsApp Image 2025-02-11 at 19.37.44_ca4bfd67.jpg" alt="Memory 7">
+            <img src="cute memories/images/images/WhatsApp Image 2025-02-11 at 19.37.46_02f3453b.jpg" alt="Memory 8">
+            <img src="cute memories/images/images/WhatsApp Image 2025-02-11 at 19.40.40_4b544f5a.jpg" alt="Memory 8">
+            <img src="cute memories/images/images/WhatsApp Image 2025-02-11 at 19.37.46_4bf7dee4.jpg" alt="Memory 9">
+            <img src="cute memories/images/images/WhatsApp Image 2025-02-11 at 19.40.41_1c7345af.jpg" alt="Memory 10">
+            <img src="cute memories/images/images/WhatsApp Image 2025-02-11 at 19.37.44_91f61e2e.jpg" alt="Memory 11">
+            <img src="cute memories/images/images/WhatsApp Image 2025-02-11 at 19.40.41_d4ae1685.jpg" alt="Memory 12">
+            <img src="cute memories/images/images/WhatsApp Image 2025-02-11 at 19.52.54_ca1e42ef.jpg" alt="Memory 13">
+            <!-- Add more images as needed -->
+        </div>
+        <div class="slider-buttons">
+            <button onclick="prevSlide()">&#10094;</button>
+            <button onclick="nextSlide()">&#10095;</button>
+        </div>
+    </div>
+    <div class="messages">
+        <p class="message">𝐸𝓋𝑒𝓇𝓎 𝓁𝒾𝓉𝓉𝓁𝑒 𝓂𝑜𝓂𝑒𝓃𝓉 𝓌𝒾𝓉𝒽 𝓎𝑜𝓊 𝒾𝓈 𝒶 𝒷𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁 𝓂𝑒𝓂𝑜𝓇𝓎 𝓌𝒽𝒾𝒸𝒽 𝐼 𝓃𝑒𝓋𝑒𝓇 𝓌𝒶𝓃𝓉 𝓉𝑜 𝒻𝑜𝓇𝑔𝑒𝓉.
+             𝐹𝓇𝑜𝓂 𝑜𝓊𝓇 𝓈𝒾𝓁𝓁𝓎 𝓁𝒶𝓊𝑔𝒽𝓈 𝓉𝑜 𝑜𝓊𝓇 𝓆𝓊𝒾𝑒𝓉 𝓉𝒶𝓁𝓀𝓈, 𝑒𝓋𝑒𝓇𝓎 𝓈𝑒𝒸𝑜𝓃𝒹 𝒻𝑒𝑒𝓁𝓈 𝓈𝑜𝑜 𝓈𝓅𝑒𝒸𝒾𝒶𝓁.
+              𝒴𝑜𝓊 𝒶𝓇𝑒 𝓂𝓎 𝒽𝒶𝓅𝓅𝒾𝑒𝓈𝓉 𝓅𝓁𝒶𝒸𝑒, 𝓂𝓎 𝒻𝑜𝓇𝑒𝓋𝑒𝓇 𝒻𝒶𝓋𝑜𝓇𝒾𝓉𝑒 𝒶𝓃𝒹 𝐼 𝒸𝒶𝓃’𝓉 𝓌𝒶𝒾𝓉 𝓉𝑜 𝓂𝒶𝓀𝑒 𝒶 𝓁𝒾𝒻𝑒𝓉𝒾𝓂𝑒 𝑜𝒻 𝓂𝑒𝓂𝑜𝓇𝒾𝑒𝓈 𝓌𝒾𝓉𝒽 𝓎𝑜𝓊.
+               𝐿𝑜𝓋𝑒 𝓎𝑜𝓊 𝒻𝑜𝓇𝑒𝓋𝑒𝓇 𝒶𝓃𝒹 𝒶𝓁𝓌𝒶𝓎𝓈 𝒜𝒷𝒽𝒾𝒾𝒾♡!!!
+            
+              </p>
+               <p class="message">
+               
+                                       ~𝒩𝑒𝑒 𝓋𝒶𝓇𝓈𝒽𝒾𝓃𝒾</p>
+   
+
+
+
+    </div>
+    <footer>
+    </footer>
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slides img');
+        const totalSlides = slides.length;
+
+        function showSlide(index) {
+            const offset = -index * (slides[0].clientWidth + 20); // 20px margin
+            document.querySelector('.slides').style.transform = `translateX(${offset}px)`;
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            showSlide(currentSlide);
+        }
+
+        setInterval(nextSlide, 3000); // Change slide every 3 seconds
+    </script>
+</body>
+</html>
